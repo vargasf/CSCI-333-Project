@@ -2,26 +2,108 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>My Basic Website</title>
+  <title>My Portfolio Website</title>
   <link rel="stylesheet" type="text/css" href="design.css">
 </head>
 <body>
+<header>
+  <div id="FullHeader">
+    <div id="Title">
+      <h1>My Portfolio Website</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#sustainability">Sustainability</a></li>
+        <li><a href="#more">More</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-      <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name">
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email">
-        
-        <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea>
-        <input type="submit" value="Send">
-      </form>
+<main>
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <ul>
+      <li>
+        <a href="#">
+          <img src="images/project1.jpg" alt="Project 1">
+          <h3>Project 1</h3>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/project2.jpg" alt="Project 2">
+          <h3>Project 2</h3>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/project3.jpg" alt="Project 3">
+          <h3>Project 3</h3>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/project4.jpg" alt="Project 4">
+          <h3>Project 4</h3>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/project3.jpg" alt="Project 5">
+          <h3>Project 5</h3>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/project3.jpg" alt="Project 6">
+          <h3>Project 6</h3>
+        </a>
+      </li>
+    </ul>
+  </section>
+  
+  <section id="about">
+    <h2>Something Else</h2>
+    <p>ADD LATER!!!</p>
+  </section>
+  
 
-    <div id="dateTime"></div>           <!--This is where the date and time will be displayed--> 
-    <script src="script.js"></script>   <!--This is where the script is called-->  
 
 
+   <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+</main>
+<footer>
+  <div id="FullFooter">
+    <div id="SocialMedia">
+      <a href="#"><i class="fab fa-facebook-f">facebook</i></a>  <!-- Add links later -->
+      <a href="#"><i class="fab fa-twitter">twitter</i></a>
+      <a href="#"><i class="fab fa-instagram">instagram</i></a>
+      <a href="#"><i class="fab fa-linkedin-in">linkedin</i></a>
+    </div>
+    <div id="CopyRight">
+      <p>© 2023 My Portfolio Website. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
+
