@@ -21,9 +21,27 @@ html, body {
     padding: 0;
   }
   
+  #FullNav {
+    background-color: #fed1bf;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid beige;
+    height: 50px;
+    text-align: center;
+  }
+
+  #Red {
+    color: Red;
+    }
+
+
+
+
   /* Header styles */
   #FullHeader {
-    background-color: #333;
+    background-color: #fed1bf;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -33,6 +51,7 @@ html, body {
   
   #Title {
     margin-left: 20px;
+    color: Red;
   }
   
   nav ul {
@@ -123,6 +142,9 @@ html, body {
     textarea {
     height: 150px;
     }
+
+    
+    
     
     button[type="submit"] {
     background-color: #333;
