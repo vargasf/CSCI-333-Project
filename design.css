@@ -17,86 +17,75 @@ html, body {
   
   ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
   }
 /* ---------------------- */
+ 
+
+header ul img {
+  width: 200px;
+  height: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: block;
+}
 
 
-
-  header {
-    background-color: #fed1bf;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 70px;
-  }
+#fix {
+  display: block;
+  justify-content: space-between;
+  margin: auto;
+  padding: 0 40px;
+  margin-bottom: 10px;
+  height: 40%;
+  width: 30%;
   
+}
 
-  #centered {
-    text-align: center;
-    margin-top: auto;
-  }
-  
+header ul{
+  margin-top: 40px;
+  border-bottom: 6px solid #FF8911;
+  border-top: 6px solid #FF8911;
+}
+
+header {
+  background-color: #fed1bf;
+  display: flex;
+  justify-content: center;
+  max-block-size: 300px;
+}
+
+
   nav {
     margin-top: 20px;
   }
   
   nav ul {
     display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    justify-content: center;
+    align-items: center;
   }
   
-  nav li {
-    margin-left: 20px;
+  /* can increase line spacing */
+  header nav li { 
+    margin-left: 25px;
   }
   
-  nav a {
+  /* can increase padding spacing */
+  /* nav a {
     text-decoration: none;
     color: #333;
-    padding: 10px;
-  }
-  
+    /* padding: 15px; } */
 
   /* ------------------------------------------------------ */
 
-  #borderLinks {
-    border-radius: 25px;
-    background: #c7ccc1;
-    padding-right: 20px;
-    
-    
-  }
-  
-  #fix{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 70px;
-  }
-
-  #Red {
-    color: Red;
-    
-    }
 
   
-  #Title {
-       color: Red;
-  }
- 
-  
-  /* Main styles */
+
   #portfolio {
     background-color: #f5f5f5;
     padding: 50px 0;
   }
-  
- 
+
 
   #portfolio h2 {
     text-align: center;
