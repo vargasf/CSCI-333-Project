@@ -30,7 +30,7 @@ header ul img {
 }
 
 
-#fix {
+header #fixH {
   display: block;
   justify-content: space-between;
   margin: auto;
@@ -81,38 +81,33 @@ header {
     color: #333;
     /* padding: 15px; } */
 
-  /* ----article---- */
+  /* ----article illustration---- */
   
-
-  article ul img {
-    width: 200px;
-    height: 50px;
-    margin-left: 40px;
-    margin-right: 40px;
-    display: block;
-  }
   
-
-  #fix {
+  
+  nav #fix {
     display: block;
     justify-content: space-between;
     margin: auto;
     padding: 0 40px;
     margin-bottom: 10px;
-    height: 55%;
-    width: 25%;
-    
+    height: 100%;
+    width: 55%;
   }
-   
-  article .mainPage{
-    background-color: #fed1bf;
+
+  .illustrationPictures{
+
+  }
+  
+  section.illustration {
+    background-color: orange;
     display: flex;
     justify-content: center;
     max-block-size: 300px;
   }
   
   
-  article nav {
+    section.illustration nav {
       margin-top: 20px;
       border-bottom: 2px solid white;
       border-top: 2px solid white;
@@ -120,20 +115,21 @@ header {
       padding-bottom: 30px;
       margin-bottom: 30px;
     }
+    
 
-  /* ----article End---- */
+  /* ----article illustration End---- */
 
-  #portfolio {
+  .portfolio {
     background-color: #f5f5f5;
     padding: 30px 0;
   }
 
 
-  #portfolio h2 {
+  .portfolio h2 {
     text-align: center;
   }
   
-  #portfolio ul {
+  .portfolio ul {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,7 +137,7 @@ header {
 
   }
   
-  #portfolio li {
+  .portfolio li {
     margin: 20px;
     width: 300px;
     height: 300px;
@@ -149,13 +145,13 @@ header {
     box-shadow: 0px 0px 10px #999;
   }
   
-  #portfolio img {
+  .portfolio img {
     width: 100%;
     height: 200px;
     object-fit: cover;
   }
   
-  #portfolio h3 {
+  .portfolio h3 {
     margin: 20px;
     text-align: center;
   }
