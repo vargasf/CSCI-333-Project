@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <title>My Portfolio Website</title>
   <link rel="stylesheet" type="text/css" href="design.css">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
 </head>
 
 
 <body>
-<!-- Navigation Bar -->
-<header>
+  <!-- Navigation Bar -->
+  <header>
     <nav>
       <a href="index.html"><img src="images/namelogo.png" alt="About Me" id="fixH"></a>
       <ul>
@@ -19,110 +23,150 @@
         <li><a href="https://www.google.com/"><img src="images/shopheader.png" alt="logo"></a></li>
       </ul>
     </nav>
-  </div>
-</header>
-<!-- Navigation Bar -->
+    </div>
+  </header>
+  <!-- Navigation Bar -->
 
 
 
-<main>
-  <section class="portfolio">
-    <ul>
-      <li>
-        <a href="#">
-          <img src="images/art-projects-for-kids-feature.jpg" alt="Project 1">
-          <h3>Project 1</h3>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="images/burger.png" alt="Project 2">
-          <h3>Project 2</h3>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="images/images.jpeg" alt="Project 3">
-          <h3>Project 3</h3>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="images/images2.jpeg" alt="Project 4">
-          <h3>Project 4</h3>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="images/art-projects-for-kids-feature.jpg" alt="Project 5">
-          <h3>Project 5</h3>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="images/OrgangeArt.jpg" alt="Project 6">
-          <h3>Project 6</h3>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="images/images2.jpeg" alt="Project 4">
-          <h3>Project 4</h3>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="images/images2.jpeg" alt="Project 4">
-          <h3>Project 4</h3>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="images/art-projects-for-kids-feature.jpg" alt="Project 5">
-          <h3>Project 5</h3>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="images/OrgangeArt.jpg" alt="Project 6">
-          <h3>Project 6</h3>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="images/art-projects-for-kids-feature.jpg" alt="Project 7">
-          <h3>Project 7</h3>
-        </a>
-      </li>
-    </ul>
-  </section>
-  
+  <main>
+    <section class="portfolio">
+      <ul>
+        <li>
+          <a href="images/art-projects-for-kids-feature.jpg">
+            <img src="images/art-projects-for-kids-feature.jpg" alt="Project 1">
+            <h3>Project 1</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/burger.png" alt="Project 2">
+            <h3>Project 2</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/images.jpeg" alt="Project 3">
+            <h3>Project 3</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/images2.jpeg" alt="Project 4">
+            <h3>Project 4</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/art-projects-for-kids-feature.jpg" alt="Project 5">
+            <h3>Project 5</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/OrgangeArt.jpg" alt="Project 6">
+            <h3>Project 6</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/images2.jpeg" alt="Project 4">
+            <h3>Project 4</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/images2.jpeg" alt="Project 4">
+            <h3>Project 4</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/art-projects-for-kids-feature.jpg" alt="Project 5">
+            <h3>Project 5</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/OrgangeArt.jpg" alt="Project 6">
+            <h3>Project 6</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/art-projects-for-kids-feature.jpg" alt="Project 7">
+            <h3>Project 7</h3>
+          </a>
+        </li>
+      </ul>
+    </section>
 
-  <section class="illustration">
-    <nav id = "mainPage">
-      <a href="index.html"><img src="images/illustrationheader.png" alt="About Me" id="fix"></a>
-    </nav>
-  </div>
-</section>
- 
-<section class = "illustrationPictures">
-  <img src="images/art-projects-for-kids-feature.jpg" alt="illustration1" class="center">
 
-</section>
+    <!-- illustration -->
+    <section class="illustration">
+      <nav id="mainPage">
+        <a href="index.html"><img src="images/illustrationheader.png" alt="About Me" id="fix"></a>
+      </nav>
+    </section>
+
+    <!-- Img 1 -->
+    <div class="container">
+      <img src="images/burger.png" alt="Example Image" class="image" onclick="showModal()">
+      <div class="text">
+        <p>This is an example image of a beautiful landscape. It was taken on a trip to the mountains and shows the
+          stunning scenery that can be found there. The lush green trees, rocky cliffs, and clear blue sky all come
+          together to create a breathtaking view. We were lucky enough to capture this moment during a hike through the
+          area, and it's a memory we'll always cherish.</p>
+      </div>
+    </div>
+    <div id="myModal" class="modal" onclick="hideModal()">
+      <img class="modal-content" src="images/burger.png" alt="Example Image">
+    </div>
+
+
+
+
+    <!-- Img 3 -->
+    <div class="container">
+      <img src="images/images.jpeg" alt="Example Image" class="image" onclick="showModal()">
+      <div class="text">
+        <p>This is an example image of a beautiful landscape. It was taken on a trip to the mountains and shows the
+          stunning scenery that can be found there. The lush green trees, rocky cliffs, and clear blue sky all come
+          together to create a breathtaking view. We were lucky enough to capture this moment during a hike through the
+          area, and it's a memory we'll always cherish.</p>
+      </div>
+      <div id="myModal" class="modal" onclick="hideModal()">
+        <img class="modal-content" src="images/burger.png" alt="Example Image">
+      </div>
+    </div>
+
+
+
+
+    <!-- End illustration -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
 
 <footer>
-  <div id="FullFooter">
-    <div id="SocialMedia">
-      <a href="#"><i class="fab fa-facebook-f">facebook</i></a>  <!-- Add links later -->
-      <a href="#"><i class="fab fa-twitter">twitter</i></a>
-      <a href="#"><i class="fab fa-instagram">instagram</i></a>
-      <a href="#"><i class="fab fa-linkedin-in">linkedin</i></a>
-    </div>
-    <div id="CopyRight">
-      <p>© 2023 My Portfolio Website. All rights reserved.</p>
-    </div>
-  </div>
+<div class="footer">
+<div class="row">
+<a href="#"><i class="fa fa-facebook"></i></a>
+<a href="#"><i class="fa fa-instagram"></i></a>
+<a href="#"><i class="fa fa-youtube"></i></a>
+<a href="#"><i class="fa fa-twitter"></i></a>
+</div>
+
+
+<div class="row">
+©2023 All rights reserved 
+</div>
+</div>
 </footer>
+    <script src="script.js"></script>
 </body>
+
 </html>
- 
