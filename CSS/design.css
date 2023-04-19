@@ -75,12 +75,7 @@ header {
     margin-left: 25px;
   }
   
-  /* can increase padding spacing */
-  /* nav a {
-    text-decoration: none;
-    color: #333;
-    /* padding: 15px; } */
-
+  
 
   /* ----article illustration---- */
 
@@ -166,7 +161,7 @@ header {
   /* ----article illustration End---- */
 
   .portfolio {
-    background-color: #f5f5f5;
+    background-color: #fff8e3;
     padding: 30px 0;
   }
 
@@ -210,43 +205,7 @@ header {
     text-align: center;
   }
    /* ------------------------------------------------------ */
-  /* ------------- About Me  ------------------*/
-
-  #mainBackground {
-    background-color: #fff8e3;
-    padding: 30px 0;
-  }
   
-  section #AboutMeSection {
-    display: flex;
-    float: left;
-  }
-   #AboutMeSection{
-  overflow: hidden;
-  }
- 
-
-  #CharImg {
-    width: 20%;
-    height: 20%;
-    display: flex;  
-    margin: 0 20px;
-  }
-
-  aside #AboutMeAside{
-    width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
-    display: flex;
-    float: right;
-    font-style: italic;
-    
-  }
-  #AboutMeAside{
-    /* Change color later */
-    background-color: lightcoral; 
-  }
-/* ---------------------------------- */
 
 /* -------------Portfolio------------- */
 
@@ -274,20 +233,6 @@ main .mainF {
 
 
 
-/* ---------------------------------- */
-  #contact {
-    padding: 50px 0;
-  }
-  
-  #contact h2 {
-    text-align: center;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
   
   label {
     margin-top: 20px;
@@ -307,13 +252,12 @@ main .mainF {
     height: 150px;
     }
     
+     /* Footer styles */
+    /* Footer styles */
     button[type="submit"]:hover {
     background-color: #444;
     }
-    
-    
-    /* Footer styles */
-    /* Footer styles */
+   
     footer{
       padding-top: 10px;
     }
