@@ -12,7 +12,7 @@
 
 
 <body>
-  <!-- Navigation Bar -->
+  <!-- Header Bar -->
   <header>
     <nav>
       <a href="index.html"><img src="images/namelogo.png" alt="About Me" id="fixH"></a>
@@ -25,25 +25,25 @@
     </nav>
     </div>
   </header>
-  <!-- Navigation Bar -->
+  <!-- Header Bar -->
 
   <main>
     <section class="portfolio">
       <ul>
         <li>
-          <a href="images/art-projects-for-kids-feature.jpg">
+          <a href= "#pic1">
             <img src="images/art-projects-for-kids-feature.jpg" alt="Project 1">
             <h3>Project 1</h3>
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#pic2">
             <img src="images/burger.png" alt="Project 2">
             <h3>Project 2</h3>
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#pic3">
             <img src="images/images.jpeg" alt="Project 3">
             <h3>Project 3</h3>
           </a>
@@ -109,7 +109,7 @@
 
     <!-- Img 1 -->
     <div class="container">
-      <img src="images/burger.png" alt="Example Image" class="image" onclick="showModal()">
+      <img src="images/art-projects-for-kids-feature.jpg" alt="Example Image" class="image" id="pic1" onclick="showModal()">
       <div class="text">
         <p>This is an example image of a beautiful landscape. It was taken on a trip to the mountains and shows the
           stunning scenery that can be found there. The lush green trees, rocky cliffs, and clear blue sky all come
@@ -124,9 +124,9 @@
 
 
 
-    <!-- Img 3 -->
+    <!-- Img 2 -->
     <div class="container">
-      <img src="images/images.jpeg" alt="Example Image" class="image" onclick="showModal()">
+      <img src="images/burger.png" alt="Example Image" class="image" id="pic2" onclick="showModal()">
       <div class="text">
         <p>This is an example image of a beautiful landscape. It was taken on a trip to the mountains and shows the
           stunning scenery that can be found there. The lush green trees, rocky cliffs, and clear blue sky all come
@@ -137,6 +137,23 @@
         <img class="modal-content" src="images/burger.png" alt="Example Image">
       </div>
     </div>
+
+
+     <!-- Img 3 -->
+     <div class="container">
+      <img src="images/images.jpeg" alt="Example Image" class="image" id="pic3" onclick="showModal()">
+      <div class="text">
+        <p>This is an example image of a beautiful landscape. It was taken on a trip to the mountains and shows the
+          stunning scenery that can be found there. The lush green trees, rocky cliffs, and clear blue sky all come
+          together to create a breathtaking view. We were lucky enough to capture this moment during a hike through the
+          area, and it's a memory we'll always cherish.</p>
+      </div>
+      <div id="myModal" class="modal" onclick="hideModal()">
+        <img class="modal-content" src="images/burger.png" alt="Example Image">
+      </div>
+    </div>
+
+
 </main>
 
 
