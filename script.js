@@ -29,7 +29,26 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-// --------------- Index --------------- //
+// --------------- Index Portfolio--------------- //
 
 
+const card = document.querySelector('.card');
+		const cardImage = card.querySelector('.card-image');
+		const cardInfo = card.querySelector('.card-info');
+		let isFlipped = false;
 
+		card.addEventListener('mouseenter', () => {
+		  if (!isFlipped) {
+		    cardImage.style.transform = 'rotateY(180deg)';
+		    cardInfo.style.transform = 'rotateY(0deg)';
+		    isFlipped = true;
+		  }
+		});
+
+		card.addEventListener('mouseleave', () => {
+		  if (isFlipped) {
+		    cardImage.style.transform = 'rotateY(0deg)';
+		    cardInfo.style.transform = 'rotateY(-180deg)';
+		    isFlipped = false;
+		  }
+		});
