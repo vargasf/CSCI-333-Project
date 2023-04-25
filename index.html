@@ -1,109 +1,276 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <title>My Portfolio Website</title>
-  <link rel="stylesheet" type="text/css" href="design.css">
+  <link rel="stylesheet" type="text/css" href="CSS/design.css">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
 </head>
+
+
 <body>
-<header>
-  <div id="FullHeader">
-    <div id="Title">
-      <h1>My Portfolio Website</h1>
-    </div>
+  <!-- Header Bar -->
+  <header>
     <nav>
+      <a href="index.html"><img src="images/namelogo.png" alt="About Me" id="fixH"></a>
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#team">Team</a></li>
-        <li><a href="#shop">Shop</a></li>
-        <li><a href="#sustainability">Sustainability</a></li>
-        <li><a href="#more">More</a></li>
+        <li><a href="AboutMe.html"><img src="images/aboutme-header.png" alt="About Me"></a></li>
+        <li><a href="Portfolio.html"><img src="images/portfolioheader.png" alt="logo"></a></li>
+        <li><a href="Resume.html"><img src="images/resumeheader.png" alt="logo"></a></li>
+        <li><a href="https://www.google.com/"><img src="images/shopheader.png" alt="logo"></a></li>
       </ul>
     </nav>
-  </div>
-</header>
+    </div>
+  </header>
+  <!-- Header Bar -->
 
-<main>
-  <section id="portfolio">
-    <h2>Portfolio</h2>
-    <ul>
-      <li>
-        <a href="#">
-          <img src="images/project1.jpg" alt="Project 1">
-          <h3>Project 1</h3>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="images/project2.jpg" alt="Project 2">
-          <h3>Project 2</h3>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="images/project3.jpg" alt="Project 3">
-          <h3>Project 3</h3>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="images/project4.jpg" alt="Project 4">
-          <h3>Project 4</h3>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="images/project3.jpg" alt="Project 5">
-          <h3>Project 5</h3>
-        </a>
-      </li>
-      <li>
-        <a href="#">
-          <img src="images/project3.jpg" alt="Project 6">
-          <h3>Project 6</h3>
-        </a>
-      </li>
-    </ul>
-  </section>
+  <main>
+    <section class="portfolio">
+      <ul>
+        <li>
+          <a href= "#one">
+            <img src="images/portfolio pics/img1.jpeg" alt="Project 1">
+            <h3>Project 1</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#two">
+            <img src="images/portfolio pics/img2.jpeg" alt="Project 2">
+            <h3>Project 2</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#three">
+            <img src="images/portfolio pics/img3.jpeg" alt="Project 3">
+            <h3>Project 3</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#four">
+            <img src="images/portfolio pics/img4.jpeg" alt="Project 4">
+            <h3>Project 4</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#five">
+            <img src="images/portfolio pics/img5.jpeg" alt="Project 5">
+            <h3>Project 5</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#six">
+            <img src="images/portfolio pics/img6.jpeg" alt="Project 6">
+            <h3>Project 6</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#seven">
+            <img src="images/portfolio pics/img7.jpeg" alt="Project 4">
+            <h3>Project 4</h3>
+          </a>
+        </li>
+        
+        <li>
+          <a href="#eight">
+            <img src="images/portfolio pics/img9.jpeg" alt="Project 5">
+            <h3>Project 5</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#nine">
+            <img src="images/portfolio pics/img10.jpeg" alt="Project 6">
+            <h3>Project 6</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#ten">
+            <img src="images/art-projects-for-kids-feature.jpg" alt="Project 7">
+            <h3>Project 7</h3>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+
+    <!-- illustration -->
+    <section class="illustration">
+      <nav id="mainPage">
+        <a href="index.html"><img src="images/illustrationheader.png" alt="About Me" id="fix"></a>
+      </nav>
+    </section>
+
   
-  <section id="about">
-    <h2>Something Else</h2>
-    <p>ADD LATER!!!</p>
-  </section>
+    <!-- ---------------------------------------- -->
+
+   
+
+    <div class="card-container">
+      <div class="card">
+        <div class="card-image">
+          <img src="images/portfolio pics/img1.jpeg" id="one" alt="Your image 1">
+        </div>
+        <div class="card-info">
+          <h2>The Light</h2>
+          <p>He slowly poured the drink over a large chunk of ice he has especially chiseled off a larger block. He didn't particularly 
+            like his drinks cold, but he knew that the drama of chiseling the ice and then pouring a drink over it looked far more 
+            impressive than how he actually liked it. It was all about image and he'd managed to perfect the image that he wanted to project.
+          </p>
+        </div>
+      </div>
   
+      <div class="card">
+        <div class="card-image">
+          <img src="images/portfolio pics/img2.jpeg" id="two" alt="Your image 2">
+        </div>
+        <div class="card-info">
+          <h2>The shadow</h2>
+          <p>He slowly poured the drink over a large chunk of ice he has especially chiseled off a larger block. He didn't particularly 
+            like his drinks cold, but he knew that the drama of chiseling the ice and then pouring a drink over it looked far more 
+            impressive than how he actually liked it. It was all about image and he'd managed to perfect the image that he wanted to project.
+          </p>
+        </div>
+      </div>
+  
+      <div class="card">
+        <div class="card-image">
+          <img src="images/portfolio pics/img3.jpeg" id="three" alt="Your image 3">
+        </div>
+        <div class="card-info">
+          <h2>The Unknown</h2>
+          <p>He slowly poured the drink over a large chunk of ice he has especially chiseled off a larger block. He didn't particularly 
+            like his drinks cold, but he knew that the drama of chiseling the ice and then pouring a drink over it looked far more 
+            impressive than how he actually liked it. It was all about image and he'd managed to perfect the image that he wanted to project.
+          </p>
+        </div>
+      </div>
+    </div>
 
 
+    <div class="card-container">
+      <div class="card">
+        <div class="card-image">
+          <img src="images/portfolio pics/img4.jpeg" id="four" alt="Your image 1">
+        </div>
+        <div class="card-info">
+          <h2>The Known</h2>
+          <p>He slowly poured the drink over a large chunk of ice he has especially chiseled off a larger block. He didn't particularly 
+            like his drinks cold, but he knew that the drama of chiseling the ice and then pouring a drink over it looked far more 
+            impressive than how he actually liked it. It was all about image and he'd managed to perfect the image that he wanted to project.
+          </p>
+        </div>
+      </div>
+  
+      <div class="card">
+        <div class="card-image">
+          <img src="images/portfolio pics/img5.jpeg" id="five" alt="Your image 2">
+        </div>
+        <div class="card-info">
+          <h2>The Good</h2>
+          <p>He slowly poured the drink over a large chunk of ice he has especially chiseled off a larger block. He didn't particularly 
+            like his drinks cold, but he knew that the drama of chiseling the ice and then pouring a drink over it looked far more 
+            impressive than how he actually liked it. It was all about image and he'd managed to perfect the image that he wanted to project.
+          </p>
+        </div>
+      </div>
+  
+      <div class="card">
+        <div class="card-image">
+          <img src="images/portfolio pics/img6.jpeg" id="six" alt="Your image 3">
+        </div>
+        <div class="card-info">
+          <h2>The Bad</h2>
+          <p>He slowly poured the drink over a large chunk of ice he has especially chiseled off a larger block. He didn't particularly 
+            like his drinks cold, but he knew that the drama of chiseling the ice and then pouring a drink over it looked far more 
+            impressive than how he actually liked it. It was all about image and he'd managed to perfect the image that he wanted to project.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card-container">
+      <div class="card">
+        <div class="card-image">
+          <img src="images/portfolio pics/img7.jpeg" id="seven" alt="Your image 1">
+        </div>
+        <div class="card-info">
+          <h2>SuperPaint</h2>
+          <p>He slowly poured the drink over a large chunk of ice he has especially chiseled off a larger block. He didn't particularly 
+            like his drinks cold, but he knew that the drama of chiseling the ice and then pouring a drink over it looked far more 
+            impressive than how he actually liked it. It was all about image and he'd managed to perfect the image that he wanted to project.
+          </p>
+        </div>
+      </div>
+  
+      <div class="card">
+        <div class="card-image">
+          <img src="images/portfolio pics/img8.jpeg" id="eight" alt="Your image 2">
+        </div>
+        <div class="card-info">
+          <h2>Dreams</h2>
+          <p>He slowly poured the drink over a large chunk of ice he has especially chiseled off a larger block. He didn't particularly 
+            like his drinks cold, but he knew that the drama of chiseling the ice and then pouring a drink over it looked far more 
+            impressive than how he actually liked it. It was all about image and he'd managed to perfect the image that he wanted to project.
+          </p>
+        </div>
+      </div>
+  
+      <div class="card">
+        <div class="card-image">
+          <img src="images/portfolio pics/img9.jpeg" id="nine" alt="Your image 3">
+        </div>
+        <div class="card-info">
+          <h2>Dog vs Cats</h2>
+          <p>He slowly poured the drink over a large chunk of ice he has especially chiseled off a larger block. He didn't particularly 
+            like his drinks cold, but he knew that the drama of chiseling the ice and then pouring a drink over it looked far more 
+            impressive than how he actually liked it. It was all about image and he'd managed to perfect the image that he wanted to project.
+          </p>
+        </div>
+      </div>
+    </div>
 
-   <section id="contact">
-    <h2>Contact</h2>
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-      
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-      
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" required></textarea>
-      <button type="submit">Send</button>
-    </form>
-  </section>
+    <div class="card-container">
+      <div class="card">
+        <div class="card-image">
+          <img src="images/portfolio pics/img10.jpeg" id="ten" alt="Your image 1">
+        </div>
+        <div class="card-info">
+          <h2>The Background</h2>
+          <p>He slowly poured the drink over a large chunk of ice he has especially chiseled off a larger block. He didn't particularly 
+            like his drinks cold, but he knew that the drama of chiseling the ice and then pouring a drink over it looked far more 
+            impressive than how he actually liked it. It was all about image and he'd managed to perfect the image that he wanted to project.
+          </p>
+        </div>
+      </div>
+  
+ 
+    <!-- ---------------------------------------- -->
 </main>
+
+
+
+    <!-- End illustration -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
 <footer>
-  <div id="FullFooter">
-    <div id="SocialMedia">
-      <a href="#"><i class="fab fa-facebook-f">facebook</i></a>  <!-- Add links later -->
-      <a href="#"><i class="fab fa-twitter">twitter</i></a>
-      <a href="#"><i class="fab fa-instagram">instagram</i></a>
-      <a href="#"><i class="fab fa-linkedin-in">linkedin</i></a>
-    </div>
-    <div id="CopyRight">
-      <p>© 2023 My Portfolio Website. All rights reserved.</p>
-    </div>
-  </div>
+<div class="footer">
+<div class="row">
+<a href="#"><i class="fa fa-facebook"></i></a>
+<a href="#"><i class="fa fa-instagram"></i></a>
+<a href="#"><i class="fa fa-youtube"></i></a>
+<a href="#"><i class="fa fa-twitter"></i></a>
+</div>
+<div class="row">
+©2023 All rights reserved 
+</div>
+</div>
 </footer>
+<script src="script.js"></script>
 </body>
 </html>
-
