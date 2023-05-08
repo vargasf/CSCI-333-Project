@@ -31,12 +31,13 @@ function showSlides(n) {
 
 // --------------- Index Portfolio--------------- //
 
-
+// Select the card element and its child elements
 const card = document.querySelector('.card');
 		const cardImage = card.querySelector('.card-image');
 		const cardInfo = card.querySelector('.card-info');
-		let isFlipped = false;
+		let isFlipped = false; // Set the initial flipped state to false
 
+		// Add an event listener for when the mouse enters the card element
 		card.addEventListener('mouseenter', () => {
 		  if (!isFlipped) {
 		    cardImage.style.transform = 'rotateY(180deg)';
@@ -45,6 +46,7 @@ const card = document.querySelector('.card');
 		  }
 		});
 
+		// Add an event listener for when the mouse leaves the card element
 		card.addEventListener('mouseleave', () => {
 		  if (isFlipped) {
 		    cardImage.style.transform = 'rotateY(0deg)';
